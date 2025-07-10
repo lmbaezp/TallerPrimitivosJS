@@ -7,7 +7,7 @@ const prompt = require("prompt-sync")();
 let anioNacimiento = parseInt(prompt('Ingresa tu año de nacimiento: '));
 while(isNaN(anioNacimiento) || anioNacimiento < 1975)
 {
-    console.log('Debes ingresar un año de nacimiento válido');
+    console.log('Debes ingresar un año de nacimiento válido, intenta nuevamente');
     anioNacimiento = parseInt(prompt('Ingresa tu año de nacimiento: '));
 }
 // •Calcula su edad.
@@ -20,13 +20,13 @@ console.log('Tu edad es', edad, 'años');
 let num1 = prompt('Ingresa un primer número: ');
 while(isNaN(num1))
 {
-    console.log('Debes ingresar un número válido');
+    console.log('Debes ingresar un número válido, intenta nuevamente');
     num1 = prompt('Ingresa un primer número: ');
 }
 let num2 = prompt('Ingresa un segundo número: ');
 while(isNaN(num2))
 {
-    console.log('Debes ingresar número válido');
+    console.log('Debes ingresar número válido, intenta nuevamente');
     num2 = prompt('Ingresa un segundo número: ');
 }
 // •Convierte los datos a número.

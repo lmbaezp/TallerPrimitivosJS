@@ -4,14 +4,14 @@ const prompt = require("prompt-sync")();
 
 // Ejercicio 1:
 // •Pide al usuario su año de nacimiento con prompt().
-let anioNacimiento = parseInt(prompt('Ingresa tu año de nacimiento: '));
+let anioNacimiento = prompt('Ingresa tu año de nacimiento: ');
 while(isNaN(anioNacimiento) || anioNacimiento < 1975)
 {
     console.log('Debes ingresar un año de nacimiento válido, intenta nuevamente');
-    anioNacimiento = parseInt(prompt('Ingresa tu año de nacimiento: '));
+    anioNacimiento = prompt('Ingresa tu año de nacimiento: ');
 }
 // •Calcula su edad.
-let edad = 2025 - anioNacimiento;
+let edad = 2025 - parseInt(anioNacimiento);
 // •Muestra.
 console.log('Tu edad es', edad, 'años');
 
@@ -33,4 +33,4 @@ while(isNaN(num2))
 num1 = parseFloat(num1)
 num2 = parseFloat(num2)
 // •Muestra la suma en consola.
-console.log(num1, ' + ', num2, ' = ', num1+num2)
+console.log(num1, '+', num2, '=', num1+num2)

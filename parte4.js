@@ -4,7 +4,7 @@ const prompt = require("prompt-sync")();
 
 // Ejercicio 1:
 // •Pide un número con prompt().
-let num = prompt('Ingresa un número: ');
+let num = prompt('Ingresa un número mayor a 1: ');
 while (isNaN(num) || num < 1)
 {
     console.log('Ingresa un número válido, intenta nuevamente');

@@ -1,0 +1,23 @@
+{
+  "name": "tallerprimitivosjs",
+  "version": "1.0.0",
+  "main": "parte1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmbaezp/TallerPrimitivosJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmbaezp/TallerPrimitivosJS/issues"
+  },
+  "homepage": "https://github.com/lmbaezp/TallerPrimitivosJS#readme",
+  "description": "",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
